@@ -7,12 +7,16 @@ theme: /
         a: Начнём.
 
     state: Hello
-        intent!: /привет
-        a: Привет привет
+        intent!: /приветт
+        a: привет(
 
-    state: Bye
-        intent!: /пока
+    state: weather
+        intent!: погода
         a: Пока пока
+
+    state: currency
+        intent!: курс
+        a: f[f[f[f[
 
     state: NoMatch
         event!: noMatch
